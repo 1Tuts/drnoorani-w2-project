@@ -13,9 +13,14 @@ div{
 	/*outline:1px dashed red;*/
 	min-height:20px;
 }
-/*div.[class&=container] > div{
+/*div.[class=|container] > div{
 	margin:0 auto;
 }*/
+body{
+	text-align:right;
+	direction: rtl;
+	font-family:"Arial Rounded MT Bold";
+}
 /* topheader
 ---------------------------------------------------*/
 .container-topheader{
@@ -27,7 +32,47 @@ div{
 	left:0px;
 	z-index:2;
 }
+.container-topheader .topheader{
+	margin:0 auto;
+}
+div.logo h1{
+	width:211px;
+	height:98px;
+	background-image: url('images/logo.png');
+	background-repeat:no-repeat;
+	text-indent:1000px;
+	overflow:hidden;
+	background-size:100%;
+}
+/* Menu
+-------------------------------------------------- */
 
+div.menu{
+	padding-top : 30px;
+}
+
+div.menu > ul{ 
+
+}
+
+div.menu li{
+	float    : left; /* mastmal! */
+	position : relative;
+}
+
+div.menu a{
+	padding : 12px;
+	display : block;
+	color:#3F6230;
+	font-size       : 16px;
+	text-decoration : none;
+	font-weight     : bold;
+	border-bottom: 1px solid #99C745;
+}
+
+div.menu li:hover a{
+	color : #688b29;
+}
 /* header
 ----------------------------------------------------*/
 .container-header{

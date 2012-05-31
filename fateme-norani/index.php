@@ -11,15 +11,32 @@
 	href="<?php bloginfo('template_url') ?>/style.css" />
 </head>
 <body>
-	<div class="container-topheader"></div>
-	<div class="container-header">lkdji ;sidfh sih</div>
+	<div class="container-topheader ">
+		<div class="topheader w24">
+			<div class="menu right last">
+				<ul>
+					<?php
+						wp_list_pages(array(
+							'title_li' => '',
+							'depth'    => 1
+						));
+					?>
+				</ul>
+		<div class="clear"></div>
+			</div>
+			<div class="logo w7 mra"><h1>drnoorani</h1></div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="container-header"></div>
 	<div class="container-addresspage"></div>
 	<div class="container-content"></div>
 	<div class="container-footer">
 		<div class="toggle">
 			<div class="contenfooter w24">
 				<div class="pont"></div>
-				<div class="plus">+</div>
+				<div class="plus left">+</div>
+				<div class="clear"></div>
 			</div>
 		</div>
 		<div class="footernav">
