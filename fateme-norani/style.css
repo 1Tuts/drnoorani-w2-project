@@ -84,13 +84,47 @@ div.menu li:hover a{
 }
 /* header
 ----------------------------------------------------*/
-.container-header{
+.container-banner{
 	height:560px;
 	width: 100%;
-	background: url('images/work-sean-lg.jpg') no-repeat center top;
 	z-index:-2;
 }
 
+.banner{
+	width:100%;
+	height:560px;
+	overflow:hidden;
+	position:relative;
+}
+div.banner div.scroll{
+	height:560px;
+	position:absolute;
+	left:0;
+	top:0;
+	-webkit-transition-property:all;
+	-webkit-transition-duration:800ms;
+	-webkit-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
+	-moz-transition-property:all;
+	-moz-transition-duration:800ms;
+	-moz-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
+	-o-transition-property:all;
+	-o-transition-duration:800ms;
+	-o-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
+	-ms-transition-property:all;
+	-ms-transition-duration:800ms;
+	-ms-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
+}
+div.banner div.scroll > div{
+	position : relative;
+	width    : 1263px;
+	height   : inherit;
+	float    : left;
+}
+div.banner div.scroll > div > img{
+	width   : inherit;
+	height  : inherit;
+	display : block;
+}
 /*addresspage
 ------------------------------------------------------*/
 .container-addresspage{
