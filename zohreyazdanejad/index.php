@@ -13,14 +13,14 @@
 <body>
 	<div class="container-topheader ">
 		<div class="topheader w24">
-			<div class="menu right last">
-				<ul>
-					<?php
-						wp_list_pages(array(
-							'title_li' => '',
-							'depth'    => 1
-						));
-					?>
+			<div class="topmenu right last">
+				<ul>	
+                	<li><a href="#">خانه اصلی</a></li>
+                    <li><a href="#">نمونه کارها</a></li>
+                	<li><a href="#">خدمات</a></li>
+                	<li><a href="#">گالری</a></li>
+                	<li><a href="#">درباره ما</a></li>
+                	<li><a href="#">تماس باما</a></li>
 				</ul>
 		<div class="clear"></div>
 			</div>
