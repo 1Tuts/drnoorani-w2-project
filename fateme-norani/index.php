@@ -30,7 +30,27 @@
 	</div>
 	<div class="container-header"></div>
 	<div class="container-addresspage"></div>
-	<div class="container-content"></div>
+	<div class="container-content">
+		<div class="content w24">
+			<?php
+				if(have_posts()){
+				while(have_posts()){
+				the_post();
+			?>
+			<article class='post'>
+				<h2><?php the_title(); ?></h2>
+				<p>
+					<?php the_content(); ?>
+				</p>
+			</article>
+			<?php
+					}
+				}else{
+					echo 'Nothing ...';
+				}
+			?>
+		</div>
+	</div>
 	<div class="container-footer">
 		<div class="toggle">
 			<div class="contenfooter w24">
