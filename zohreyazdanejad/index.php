@@ -1,16 +1,15 @@
 <!DOCTYPE HTML>
-<html lang="en-US">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>dr noorani</title>
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/reset.css" />
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/1styles.css" />
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/style.css" />
+<meta charset="utf-8">
+<title>dr noorani</title>
+<link rel="stylesheet"  type="text/css" href="<?php bloginfo('template_url') ?>/reset.css"/>
+<link rel="stylesheet"  type="text/css" href="<?php bloginfo('template_url') ?>/1styles.css"/>
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/style.css" />
 </head>
-<body>
-	<div class="container-topheader ">
-		<div class="topheader w24">
-			<div class="topmenu right last">
+	<div class="container-topheader">
+    	<div class="topheader w24">
+        	<div class="topmenu right last">
 				<ul>	
                 	<?php 
 						wp_list_pages(array(
@@ -26,9 +25,9 @@
            
 			<div class="logo w7 mra"><h1>drnoorani</h1></div>
 			<div class="clear"></div>
-		</div>
-	</div>
-	<div class="container-header"></div>
+        </div>
+    </div>
+    <div class="container-header"></div>
 	<div class="container-addresspage"></div>
 	<div class="container-content">
 		<div class="content w24">
@@ -63,5 +62,6 @@
 			<div class="con-footernav w24"></div>
 		</div>
 	</div>
+<body>
 </body>
 </html>

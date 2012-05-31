@@ -1,3 +1,7 @@
+@charset "utf-8";
+
+/* CSS Document */
+
 /*
 Theme Name: dr noorani
 Theme URI: 
@@ -9,21 +13,23 @@ Version: 1
 
 /* Global Layout
 -------------------------------------------------- */
-div{
+div {
 	/*outline:1px dashed red;*/
 	min-height:20px;
 }
+
 /*div.[class=|container] > div{
 	margin:0 auto;
 }*/
-body{
+body {
 	text-align:right;
 	direction: rtl;
 	font-family:"Arial Rounded MT Bold";
 }
+
 /* topheader
 ---------------------------------------------------*/
-.container-topheader{
+.container-topheader {
 	width: 100%;
 	min-height:200px;
 	background: url(images/nav-bg.png) no-repeat center top;
@@ -32,16 +38,19 @@ body{
 	left:0px;
 	z-index:2;
 }
-.container-topheader .topheader{
+
+.container-topheader .topheader {
 	margin:0 auto;
 }
-.logo{
+
+.logo {
 	text-align:left;
 	direction:ltr;
 	padding-left: 10px;
 	padding-top: 10px;
 }
-div.logo h1{
+
+div.logo h1 {
 	width:211px;
 	height:120px;
 	background-image: url('images/logo.png');
@@ -49,42 +58,41 @@ div.logo h1{
 	text-indent:1000px;
 	overflow:hidden;
 	background-size:100%;
-	
 }
+
 /* Menu
 -------------------------------------------------- */
 
-div.topmenu{
+div.topmenu {
 	padding-top : 25px;
-	
 }
 
-div.topmenu > ul{ 
-
+div.topmenu > ul {
 }
 
-div.topmenu li{
-	float    : left; /* mastmal! */
+div.topmenu li {
+	float : left; /* mastmal! */
 	position : relative;
 	padding:7px;
 }
 
-div.topmenu a{
+div.topmenu a {
 	padding: 5px 3px;
 	display : block;
 	color:#3F6230;
-	font-size       : 16px;
+	font-size : 16px;
 	text-decoration : none;
-	font-weight     : bold;
+	font-weight : bold;
 	border-bottom: 1px solid #99C745;
 }
 
-div.topmenu li:hover a{
+div.topmenu li:hover a {
 	color : #688b29;
 }
+
 /* header
 ----------------------------------------------------*/
-.container-header{
+.container-header {
 	height:560px;
 	width: 100%;
 	background: url('images/work-sean-lg.jpg') no-repeat center top;
@@ -93,7 +101,7 @@ div.topmenu li:hover a{
 
 /*addresspage
 ------------------------------------------------------*/
-.container-addresspage{
+.container-addresspage {
 	width: 100%;
 	height:55px;
 	border-bottom: 6px double #DADADA;
@@ -101,17 +109,19 @@ div.topmenu li:hover a{
 
 /*content
 -----------------------------------------------------*/
-.container-content{
+.container-content {
 	min-height:200px;
 	width: 100%;
 	background-image: url(images/bg-texture.png);
 }
-.content{
+
+.content {
 	margin:0 auto;
 }
+
 /*footer
 ------------------------------------------------------*/
-.container-footer{
+.container-footer {
 	width: 100%;
 	background:transparent;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -120,7 +130,7 @@ div.topmenu li:hover a{
 	left:0;
 }
 
-.toggle{
+.toggle {
 	width: 100%;
 	background-color:#fff;
 	color:#97C93C;
@@ -128,7 +138,7 @@ div.topmenu li:hover a{
 	cursor: pointer;
 }
 
-.toggle .contenfooter{
+.toggle .contenfooter {
 	position: relative;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
@@ -136,16 +146,17 @@ div.topmenu li:hover a{
 	-ms-transition: all .3s ease-in-out;
 	margin:0 auto;
 }
-.contenfooter .pont{
+
+.contenfooter .pont {
 	position: absolute;
 	top: -15px;
 	left: 12px;
 	height: 17px;
 	width: 24px;
 	background: url("images/footer-arrow.png") no-repeat top left;
-	
 }
-.contenfooter .plus{
+
+.contenfooter .plus {
 	width: 59px;
 	height:59px;
 	font-size: 40px;
@@ -155,10 +166,11 @@ div.topmenu li:hover a{
 	margin-left: -5px;
 	line-height: 59px;
 }
-.footernav{
+
+.footernav {
 	display:none;
 }
-.footernav .con-footernav{
-	margin:0 auto;
 
+.footernav .con-footernav {
+	margin:0 auto;
 }
