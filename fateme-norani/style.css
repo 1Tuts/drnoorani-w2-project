@@ -35,20 +35,28 @@ body{
 .container-topheader .topheader{
 	margin:0 auto;
 }
+.logo{
+	text-align:left;
+	direction:ltr;
+	padding-left: 10px;
+	padding-top: 10px;
+}
 div.logo h1{
 	width:211px;
-	height:98px;
+	height:120px;
 	background-image: url('images/logo.png');
 	background-repeat:no-repeat;
 	text-indent:1000px;
 	overflow:hidden;
 	background-size:100%;
+	
 }
 /* Menu
 -------------------------------------------------- */
 
 div.menu{
-	padding-top : 30px;
+	padding-top : 25px;
+	
 }
 
 div.menu > ul{ 
@@ -58,10 +66,11 @@ div.menu > ul{
 div.menu li{
 	float    : left; /* mastmal! */
 	position : relative;
+	padding:7px;
 }
 
 div.menu a{
-	padding : 12px;
+	padding: 5px 3px;
 	display : block;
 	color:#3F6230;
 	font-size       : 16px;
@@ -97,7 +106,9 @@ div.menu li:hover a{
 	width: 100%;
 	background-image: url(images/bg-texture.png);
 }
-
+.content{
+	margin:0 auto;
+}
 /*footer
 ------------------------------------------------------*/
 .container-footer{
