@@ -3,27 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<title>dr noorani</title>
-	<link rel="stylesheet" type="text/css" 
-	href="<?php bloginfo('template_url') ?>/reset.css" />
-	<link rel="stylesheet" type="text/css"
-	 href="<?php bloginfo('template_url') ?>/1styles.css" />
-	<link rel="stylesheet" type="text/css" 
-	href="<?php bloginfo('template_url') ?>/style.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/reset.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/1styles.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/style.css" />
 </head>
 <body>
 	<div class="container-topheader ">
 		<div class="topheader w24">
 			<div class="topmenu right last">
 				<ul>	
-                	<li><a href="#">خانه اصلی</a></li>
-                    <li><a href="#">نمونه کارها</a></li>
-                	<li><a href="#">خدمات</a></li>
-                	<li><a href="#">گالری</a></li>
-                	<li><a href="#">درباره ما</a></li>
-                	<li><a href="#">تماس باما</a></li>
+                	<?php 
+						wp_list_pages(array(
+							'title_li'=>'',
+							'depth'=>1
+						
+						));
+					
+					?>
 				</ul>
-		<div class="clear"></div>
+		 	<div class="clear"></div>
 			</div>
+           
 			<div class="logo w7 mra"><h1>drnoorani</h1></div>
 			<div class="clear"></div>
 		</div>

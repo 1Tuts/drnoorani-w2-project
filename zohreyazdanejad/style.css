@@ -54,22 +54,22 @@ div.logo h1{
 /* Menu
 -------------------------------------------------- */
 
-div.menu{
+div.topmenu{
 	padding-top : 25px;
 	
 }
 
-div.menu > ul{ 
+div.topmenu > ul{ 
 
 }
 
-div.menu li{
+div.topmenu li{
 	float    : left; /* mastmal! */
 	position : relative;
 	padding:7px;
 }
 
-div.menu a{
+div.topmenu a{
 	padding: 5px 3px;
 	display : block;
 	color:#3F6230;
@@ -79,7 +79,7 @@ div.menu a{
 	border-bottom: 1px solid #99C745;
 }
 
-div.menu li:hover a{
+div.topmenu li:hover a{
 	color : #688b29;
 }
 /* header
