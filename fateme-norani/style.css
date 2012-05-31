@@ -10,10 +10,12 @@ Version: 1
 /* Global Layout
 -------------------------------------------------- */
 div{
-	outline:1px dashed red;
+	/*outline:1px dashed red;*/
 	min-height:20px;
 }
-
+/*div.[class&=container] > div{
+	margin:0 auto;
+}*/
 /* topheader
 ---------------------------------------------------*/
 .container-topheader{
@@ -34,6 +36,7 @@ div{
 	background: url('images/work-sean-lg.jpg') no-repeat center top;
 	z-index:-2;
 }
+
 /*addresspage
 ------------------------------------------------------*/
 .container-addresspage{
@@ -48,4 +51,58 @@ div{
 	min-height:200px;
 	width: 100%;
 	background-image: url(images/bg-texture.png);
+}
+
+/*footer
+------------------------------------------------------*/
+.container-footer{
+	width: 100%;
+	background:transparent;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	position: fixed;
+	bottom: 0;
+	left:0;
+}
+
+.toggle{
+	width: 100%;
+	background-color:#fff;
+	color:#97C93C;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.toggle .contenfooter{
+	position: relative;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	margin:0 auto;
+}
+.contenfooter .pont{
+	position: absolute;
+	top: -15px;
+	left: 12px;
+	height: 17px;
+	width: 24px;
+	background: url("images/footer-arrow.png") no-repeat top left;
+	
+}
+.contenfooter .plus{
+	width: 59px;
+	height:59px;
+	font-size: 40px;
+	font-weight:700px;
+	text-align: center;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	margin-left: -5px;
+	line-height: 59px;
+}
+.footernav{
+	display:none;
+}
+.footernav .con-footernav{
+	margin:0 auto;
+
 }
