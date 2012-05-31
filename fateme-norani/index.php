@@ -15,5 +15,16 @@
 	<div class="container-header">lkdji ;sidfh sih</div>
 	<div class="container-addresspage"></div>
 	<div class="container-content"></div>
+	<div class="container-footer">
+		<div class="toggle">
+			<div class="contenfooter w24">
+				<div class="pont"></div>
+				<div class="plus">+</div>
+			</div>
+		</div>
+		<div class="footernav">
+			<div class="con-footernav w24"></div>
+		</div>
+	</div>
 </body>
 </html>
