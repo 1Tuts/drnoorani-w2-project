@@ -73,7 +73,7 @@ div.topmenu > ul {
 div.topmenu li {
 	float : left; /* mastmal! */
 	position : relative;
-	padding:7px;
+	padding:10px;
 }
 
 div.topmenu a {
@@ -89,6 +89,29 @@ div.topmenu a {
 div.topmenu li:hover a {
 	color : #688b29;
 }
+
+div.topmenu li ul{
+	display:none;
+	position:absolute;
+	right:0;
+	top:40px;
+	z-index:2;
+}
+
+div.topmenu li li{
+	width:100%;
+	
+}
+
+div.topmenu li li:first-child {
+	
+}
+
+div.topmenu li:hover > ul{
+	display:block;
+	
+}
+
 
 /* header
 ----------------------------------------------------*/
