@@ -4,10 +4,13 @@ $(function(){
 	$(".topmenu ul").hover(function(){
 		$("li").hover(function(){
 			$("a").slideDown(1400);
-			});
-	
-	
 		});
+	});
+	
+	$(".plus").click(function(){
+		$(".content").slideToggle("slow");
+	});
+	
 });
 
 var picWidth = 980,
