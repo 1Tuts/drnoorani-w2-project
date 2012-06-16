@@ -69,9 +69,17 @@
 </div>
 </div>
     </div>
-	<div class="container-addresspage"></div>
+	<div class="container-addresspage">
+    	<div class="addresspage w24">
+            <div class="left w9 box1"></div>
+            <div class="right w9 last box2"></div>
+        </div>
+    </div>
 	<div class="container-content">
 		<div class="content w24">
+        	<div class="left w7 boxl"></div>
+            <div class="right w7 last boxr"></div>
+            <div class="ml7 mr7 boxm"></div>
 			<?php
 				if(have_posts()){
 				while(have_posts()){

@@ -210,8 +210,18 @@ div.banner ul.btn li.active{
 ------------------------------------------------------*/
 .container-addresspage {
 	width: 100%;
-	height:55px;
+	height:120px;
 	border-bottom: 6px double #DADADA;
+}
+.addresspage{
+	margin:0 auto;
+	height:inherit;
+}
+.addresspage .box1{
+	height:inherit;
+}
+.addresspage .box2{
+	height:inherit;
 }
 
 /*content
@@ -227,6 +237,15 @@ div.banner ul.btn li.active{
 	height:500px;
 }
 
+.boxl{
+	height:inherit;
+}
+.boxr{
+	height:inherit;
+}
+.boxm{
+	height:inherit;
+}
 /*footer
 ------------------------------------------------------*/
 .container-footer {
@@ -243,7 +262,7 @@ div.banner ul.btn li.active{
 	background-color:#fff;
 	color:#97C93C;
 	font-weight: bold;
-	cursor: pointer;
+	
 }
 
 .toggle .contenfooter {
@@ -273,6 +292,7 @@ div.banner ul.btn li.active{
 	font-family: Arial, "MS Trebuchet", sans-serif;
 	margin-left: -5px;
 	line-height: 59px;
+	cursor: pointer;
 }
 
 .footernav {
