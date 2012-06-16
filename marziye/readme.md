@@ -1,2 +1,2 @@
 marziye
-semat:majol va laout
+semat:majol va layout
