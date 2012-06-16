@@ -1,12 +1,21 @@
-website:drnoorani.ir
+##drnoorani website
 
-this site is designed for dr noorani that His field of specialization are Ear and Throat and Nose and Larynx.
+this website is designed for dr noorani that His field of specialization are Ear and Throat and Nose and Larynx.
 
-member of team:
+##Bulding technologies
 
-manager:zohre yazdi nejad
+* HTML5
+* 1Styles
+* Javascript
+* JQuery.js
+* PHP
+* MySQL
 
-data:fateme noorani
+##The Team:
 
-code and css:marzieh akbarpour
+* Manager/Designer:zohre yazdinejad
+
+* Data Gather:fateme noorani
+
+* Designer:marzieh akbarpour
 
