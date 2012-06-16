@@ -221,16 +221,16 @@ div.banner ul.btn li.active {
 .addresspage {
 	margin:0 auto;
 	height:inherit;
-	border: 1px solid yellow;
+
 }
 
 .addresspage .box1 {
 	padding:10px 5px;
-	border:1px solid red;
+	
 }
 
 .addresspage .box2 {
-	border:1px solid green;
+	
 	padding:10px 5px;
 }
 
