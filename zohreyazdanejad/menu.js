@@ -24,6 +24,8 @@ $(function(){
 /*banner
 -----------------------------*/
 
+
+
 var picWidth = 1349,
 currentSlide = 0,
 lastSlide = 0,
