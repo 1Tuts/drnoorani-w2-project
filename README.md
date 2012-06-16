@@ -2,7 +2,7 @@
 
 this website is designed for dr noorani that His field of specialization are Ear and Throat and Nose and Larynx.
 
-##Bulding technologies
+##Buliding technologies
 
 * HTML5
 * 1Styles
