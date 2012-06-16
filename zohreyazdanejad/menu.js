@@ -11,6 +11,10 @@ $(function(){
 	
 	
 		});
+		
+		$(".plus").click(function(){
+		$(".content").slideToggle("slow");
+	});
 });
 
 /*footer
