@@ -1,3 +1,3 @@
 fateme noorani
 ==============
-semat:modire poroje va data
+semat:data
