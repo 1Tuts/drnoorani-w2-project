@@ -11,7 +11,7 @@ this website is designed for dr noorani that His field of specialization are Ear
 * PHP
 * MySQL
 
-##The Team:
+##The Team
 
 * Manager/Designer:zohre yazdinejad
 
