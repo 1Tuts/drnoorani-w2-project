@@ -1,2 +1,2 @@
 zohre yazdinejad
-semat:php 
+semat:manager
