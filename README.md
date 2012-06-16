@@ -13,9 +13,9 @@ this website is designed for dr noorani that His field of specialization are Ear
 
 ##The Team
 
-* Manager/Designer:zohre yazdinejad
+* Manager/Designer:**zohre yazdinejad**
 
-* Data Gather:fateme noorani
+* Data Gather:**fateme noorani**
 
-* Designer:marzieh akbarpour
+* Designer:**marzieh akbarpour**
 
