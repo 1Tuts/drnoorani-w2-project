@@ -57,8 +57,8 @@
 </div>
 <div class="container-addresspage">
   <div class="addresspage w24">
-    <div class="left w9 box1">well come</div>
-    <div class="right w9 last box2">how are you?</div>
+    <div class="left w9 box1"><span> گوش و حلق وبینی شاخه‌ای از پزشکی است که به تخصص تشخیص و درمان اختلالات گوش، گلو و بینی، و سر و گردن ارتباط دارد. گوش‌وگلووبینی یکی از رقابتی‌ترین تخصص‌ها برای پزشکان است.</span></div>
+    <div class="right w9 last box2"><span> به سایت دکتر علیرضا نورانی خوش آمدید</span></div>
   </div>
 </div>
 <div class="container-content">

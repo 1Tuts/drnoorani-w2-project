@@ -47,24 +47,22 @@ body {
 .logo {
 	text-align:right;
 	direction:ltr;
-	
 	padding:30px 10px;
 }
 
 div.logo span a {
 	width:200px;
-	height:50px;	
+	height:50px;
 	font-size:36px;
 	color:#3F6230;
 	text-shadow:0px 0px 2px #D5EBCB;
-	text-decoration:none;	
+	text-decoration:none;
 }
 
-div.logo h3{
+div.logo h3 {
 	position:absolute;
 	padding:15px 5px;
 	color:#315227;
-	
 }
 
 /* Menu
@@ -90,7 +88,6 @@ div.topmenu a {
 	font-size : 17px;
 	text-decoration : none;
 	font-weight : bold;
-	
 }
 
 div.topmenu li:hover > a {
@@ -210,17 +207,31 @@ div.banner ul.btn li.active {
 .addresspage {
 	margin:0 auto;
 	height:inherit;
-
 }
 
 .addresspage .box1 {
-	padding:10px 5px;
-	
+	padding:25px 5px;
+}
+
+.box1 span {
+	font-size:16px;
+	color:#213120;
+	letter-spacing:1px;
+	text-align:justify;
+	line-height:10px;
 }
 
 .addresspage .box2 {
+	padding:40px 5px;
 	
-	padding:10px 5px;
+}
+
+.box2 span {
+	color:#213120;
+	font-size:22px;
+	letter-spacing:1px;
+	text-align:justify;
+	font-weight:bold;
 }
 
 /*content
