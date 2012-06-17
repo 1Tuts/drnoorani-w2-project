@@ -25,7 +25,8 @@
       <div class="clear"></div>
     </div>
     <div class="logo w7 mra">
-      <h1>drnoorani</h1>
+     <span><a href="http://www.drnoorani.ir">دکتر علیرضا نورانی</a></span>
+     <h3>متخصص گوش و حلق و بینی</h3>
     </div>
     <div class="clear"></div>
   </div>

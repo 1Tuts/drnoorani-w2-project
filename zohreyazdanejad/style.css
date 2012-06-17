@@ -25,7 +25,7 @@ div {
 body {
 	text-align:right;
 	direction: rtl;
-	font-family:"Arial Rounded MT Bold";
+	font-family:zar, serif;
 }
 
 /* topheader
@@ -45,20 +45,26 @@ body {
 }
 
 .logo {
-	text-align:left;
+	text-align:right;
 	direction:ltr;
-	padding-left: 10px;
-	padding-top: 10px;
+	
+	padding:30px 10px;
 }
 
-div.logo h1 {
-	width:211px;
-	height:120px;
-	background-image: url('images/logo.png');
-	background-repeat:no-repeat;
-	text-indent:1000px;
-	overflow:hidden;
-	background-size:100%;
+div.logo span a {
+	width:200px;
+	height:50px;	
+	font-size:36px;
+	color:#3F6230;
+	text-shadow:0px 0px 2px #D5EBCB;
+	text-decoration:none;	
+}
+
+div.logo h3{
+	position:absolute;
+	padding:15px 5px;
+	color:#315227;
+	
 }
 
 /* Menu
@@ -81,14 +87,15 @@ div.topmenu a {
 	padding: 5px 3px;
 	display : block;
 	color:#3F6230;
-	font-size : 16px;
+	font-size : 17px;
 	text-decoration : none;
 	font-weight : bold;
-	border-bottom: 1px solid #99C745;
+	
 }
 
 div.topmenu li:hover > a {
 	color : #688b29;
+	border-bottom:1px dotted #99C745;
 }
 
 /* header
