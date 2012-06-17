@@ -14,24 +14,13 @@
   <div class="topheader w24">
     <div class="topmenu right last">
       <ul>
-        <li><a href="#">خانه اصلی</a></li>
-        <li><a href="#">نمونه کارها</a>
-          <ul>
-            <li><a href="#">جراحی بینی</a></li>
-            <li><a href="#">جراحی گوش</a></li>
-            <li><a href="#">جراحی حلق</a></li>
-          </ul>
-        </li>
-        <li><a href="#">خدمات</a>
-          <ul>
-            <li><a href="#">جراحی </a></li>
-            <li><a href="#">ویزیت</a></li>
-            <li><a href="#">مشاوره</a></li>
-          </ul>
-        </li>
-        <li><a href="#">گالری</a></li>
-        <li><a href="#">درباره ما</a></li>
-        <li><a href="#">تماس باما</a></li>
+        <?php
+			wp_list_pages(array(
+				'title_li' => '',
+				'child_of' => 6 ,
+				'depth' => 1
+			));
+		?>
       </ul>
       <div class="clear"></div>
     </div>

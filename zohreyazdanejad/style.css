@@ -91,25 +91,6 @@ div.topmenu li:hover > a {
 	color : #688b29;
 }
 
-div.topmenu li ul {
-	display:none;
-	position:absolute;
-	right:0;
-	top:40px;
-	z-index:2;
-}
-
-div.topmenu li li {
-	width:100%;
-}
-
-div.topmenu li li:first-child {
-}
-
-div.topmenu li:hover > ul {
-	display:block;
-}
-
 /* header
 ----------------------------------------------------*/
 .container-header {
@@ -126,6 +107,7 @@ div.banner {
 	position:relative;
 	overflow:hidden;
 	margin:0 auto;
+	margin-top:20px;
 }
 
 div.scroll {
