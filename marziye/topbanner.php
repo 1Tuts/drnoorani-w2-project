@@ -1,4 +1,4 @@
-<div class="container-header">
+
 <div class="banner">
     <div class="scroll">
         <div class="adv1">
@@ -23,6 +23,5 @@
 </div>
 
 
-</div>
 </div>
 </div>

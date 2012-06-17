@@ -5,7 +5,7 @@
 			<?php
 				wp_list_pages(array(
 					'title_li' => '',
-					'child_of' => 44,
+					'child_of' => 24,
 					'depth'    => 1
 				));
 			?>

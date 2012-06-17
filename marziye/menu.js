@@ -1,19 +1,28 @@
 // JavaScript Document
 
+/* menu 
+-------------------------------------*/
+
 $(function(){
 	$(".topmenu ul").hover(function(){
 		$("li").hover(function(){
 			$("a").slideDown(1400);
 		});
 	});
-	
+/* plus 
+-----------------------------------------------*/
+
 	$(".plus").click(function(){
 		$(".content").slideToggle("slow");
 	});
 	
 });
 
-var picWidth = 980,
+
+/* banner 
+-------------------------------------------*/
+
+var picWidth = 1349,
 currentSlide = 0,
 lastSlide = 0,
 autoPlayDelay = 5000,

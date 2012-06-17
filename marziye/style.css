@@ -125,55 +125,64 @@ div.topmenu li:hover > ul{
 /* banner 
 -----------------------------------------------------*/
 
-div.banner{
-	width:980px;
-	height:450px;
+div.banner {
+	width:1349px;
+	height:560px;
 	position:relative;
 	overflow:hidden;
+	margin:0 auto;
+	margin-top:20px;
 }
-div.scroll{
-	width:5000px;
-	height:400px;
+
+div.scroll {
+	width:7000px;
+	height:560px;
 	position:absolute;
 	top:0;
 	left:0;
-	-webkit-transition:all 700ms;
+	-webkit-transition-property:all;
+	-webkit-transition-duration:800ms;
+	-webkit-transition-timing-function:cubic-bezier(0, 0.7, 0.3, 1);
 }
-div.scroll > div{
-	width:980px;
+
+div.scroll > div {
+	width:1349px;
 	float:left;
 	height:inherit;
 	background-repeat:no-repeat;
 	background-position:left top;
+	position:relative;
 }
 
-div.scroll div.adv1{
-	background-image:url('images/banner1/6.jpg');
+div.scroll div.adv1 {
+	background-image:url('images/banner1/6.jpg');/*widthpics:1349px height:560px;*/
 }
-div.scroll div.adv2{
+
+div.scroll div.adv2 {
 	background-image:url('images/banner1/8.jpg');
 }
-div.scroll div.adv3{
+
+div.scroll div.adv3 {
 	background-image:url('images/banner1/14.jpg');
 }
-div.scroll div.adv4{
+
+div.scroll div.adv4 {
 	background-image:url('images/banner1/15.jpg');
 }
 
-div.banner div.scroll > div > div.desc{
+div.banner div.scroll > div > div.desc {
 	position : absolute;
-	left     : 0;
-	bottom   : 70px;
-	color    : #f2f2f2;
-	padding  : 10px 20px;
+	left : 0;
+	bottom : 20px;
+	color : #f2f2f2;
+	padding : 20px 40px;
 	width:250px;
-	background-color : rgba(255,255,255,.5);
-	letter-spacing   : 1px;
-
+	background-color : rgba(0,0,0,.5);
+	letter-spacing : 1px;
 	-webkit-transition : all 200ms;
 }
 
-div.banner ul.btn{
+div.banner ul.btn {
 	list-style-type:none;
 	height:16px;
 	position:absolute;
@@ -181,9 +190,10 @@ div.banner ul.btn{
 	left:0;
 	bottom:0;
 	margin:0 auto;
+	display:none;
 }
 
-div.banner ul.btn li{
+div.banner ul.btn li {
 	float:left;
 	width:30px;
 	height:10px;
@@ -193,12 +203,13 @@ div.banner ul.btn li{
 	border-radius:5px;
 	-webkit-transition:all 800ms;
 }
-div.banner ul.btn li:first-child{
+
+div.banner ul.btn li:first-child {
 	margin-left:0;
 }
 
 div.banner ul.btn li:hover,
-div.banner ul.btn li.active{
+div.banner ul.btn li.active {
 	background-color:#39D;
 	height:16px;
 	margin-top:-3px;
