@@ -1,25 +1,25 @@
 // JavaScript Document
 
-/*menu
-------------------------------*/
+
 
 $(function(){
-	$(".topmenu ul").hover(function(){
-		$("li").hover(function(){
-			$("a").slideDown(1400);
-			});
-	
-	
+/*addresspage
+------------------------------*/		
+		$("a").click(function(){
+			$(".text").fadeIn(3000 , function(){
+				$("span").fadeIn(100);
+				});
+				return false;
 		});
 		
-		$(".plus").click(function(){
-		$(".content").slideToggle("slow");
-	});
-});
+/*content
+-----------------------------*/	
+	$(".plus").click(function(){
+			$(".content").slideToggle("slow");
+		});
+	
 
-/*footer
-------------------------------*/
-
+}); 
 
 /*banner
 -----------------------------*/
