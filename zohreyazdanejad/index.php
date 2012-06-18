@@ -10,7 +10,14 @@
 	if($post->ID == '75'){
 		get_template_part('topbanner','top');
 		}else{
-			get_tempalte_part('content_page','page');
+			get_template_part('content_page','page');
+			}
+?>
+<?php
+	if($post->post_name == 'topgallery'){
+		get_template_part('topgallery','top');
+		}else{
+			get_template_part('topbanner','page');
 			}
 ?>
 </div>
