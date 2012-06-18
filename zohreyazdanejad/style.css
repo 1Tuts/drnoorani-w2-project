@@ -100,6 +100,7 @@ div.topmenu li:hover > a {
 .container-header {
 	height:560px;
 	width: 100%;
+	z-index:-2;
 }
 
 /* banner 
@@ -345,6 +346,7 @@ div.text span {
 	font-family: Arial, "MS Trebuchet", sans-serif;
 	margin-left: -5px;
 	line-height: 59px;
+	cursor: pointer;
 }
 
 .footernav {

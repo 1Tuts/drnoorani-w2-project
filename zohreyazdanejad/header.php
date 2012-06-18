@@ -9,4 +9,4 @@
 <script type="text/javascript" src="<?php bloginfo('template_url') ?>/jquery.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url') ?>/menu.js"></script>
 </head>
-<body >
+<body class="<?php echo 'page_'.$post->post_name ?>">
