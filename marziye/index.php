@@ -13,6 +13,14 @@
 		
 		get_template_part('topbanner','top');
 
+	}elseif($post->ID == '17'){
+		
+		get_template_part('topgallery','top');
+		
+	}elseif($post->ID == '13'){
+		
+		get_template_part('contact-us','page');
+		
 	}else{
 		
 		get_template_part('content_page','page');
@@ -22,7 +30,7 @@
 
 </div>
 
-<div class="container-content">
+<div class="co-content">
 
 <?php
 
@@ -30,9 +38,6 @@
 
 		get_template_part('content', 'page');
 		
-	}else{
-		
-		get_template_part('content_page','page');
 	}
 
 ?>

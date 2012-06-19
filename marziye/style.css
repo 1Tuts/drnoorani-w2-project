@@ -237,6 +237,11 @@ div.banner ul.btn li.active {
 
 /*content
 -----------------------------------------------------*/
+.co-content{
+	min-height:200px;
+	width: 100%;
+}
+
 .container-content {
 	min-height:200px;
 	width: 100%;
@@ -313,3 +318,27 @@ div.banner ul.btn li.active {
 .footernav .con-footernav {
 	margin:0 auto;
 }
+
+
+
+/*content-page
+----------------------------------*/
+
+.new{
+	padding-top:130px;
+	outline:1px dashed blue;
+}
+
+.page{
+	outline:1px solid red;
+	margin:0 auto;
+}
+
+.contact{
+	padding-top:130px;
+}
+
+.us{
+	margin:0 auto;
+}
+

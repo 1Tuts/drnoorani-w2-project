@@ -5,8 +5,13 @@
 <title>dr noorani</title>
 <link rel="stylesheet"  type="text/css" href="<?php bloginfo('template_url') ?>/reset.css"/>
 <link rel="stylesheet"  type="text/css" href="<?php bloginfo('template_url') ?>/1styles.css"/>
+<link rel="stylesheet"  type="text/css" href="<?php bloginfo('template_url') ?>/lightbox.css"/>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/style.css" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/mail.css" />
 <script type="text/javascript" src="<?php bloginfo('template_url') ?>/jquery.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url') ?>/jquery-ui.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url') ?>/lightbox.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url') ?>/menu.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url') ?>/mail.js"></script>
 </head>
 <body class="<?php echo 'page_'.$post->post_name ?>">

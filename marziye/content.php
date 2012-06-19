@@ -4,7 +4,8 @@
         <div class="right w9 last box2"></div>
     </div>
 </div>
-    <div class="content w24">
+	<div class="container-content">
+    	<div class="content w24">
         <div class="left w7 boxl">
         	 <?php
 				if(have_posts()){
@@ -57,3 +58,4 @@
         	?>
         </div>     
     </div>
+</div>

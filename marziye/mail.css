@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+div.title {
+	min-height:30px;
+	margin:0 auto;
+	padding:20px 10px;
+}
+
+div.title span {
+	font-size:16px;
+	color:#003300;
+	text-align:center;
+	font-weight:bold;
+	padding-right:150px;
+}
+
+div.mail {
+	min-height:400px;
+	padding:10px 5px;
+	margin:0 auto;
+	margin-top:70px;
+}
+
+form.frm {
+	margin-top:10px;
+}
+
+form.frm input {
+	display:block;
+	padding:4px;
+	margin-bottom:10px;
+}
+
+form.frm input[type=text] {
+	border:none;
+	color:#9A9E94;
+	font-size:14px;
+	background-color:transparent;
+	border-radius:10px 0px 10px 0px;
+	-webkit-border-radius:10px 0px 10px 0px;
+	-o-border-radius:10px 0px 10px 0px;
+	-moz-border-radius:10px 0px 10px 0px;
+	-ms-border-radius:10px 0px 10px 0px;
+	outline:none;
+	box-shadow:0px 0px 7px #49AF30;
+	-moz-box-shadow:0px 0px 7px #49AF30;
+	-ms-box-shadow:0px 0px 7px #49AF30;
+	-o-box-shadow:0px 0px 7px #49AF30;
+	-webkit-box-shadow:0px 0px 7px #49AF30;
+	background-color:#D7FDCC;
+}
+
+form.frm textarea {
+	font-size:16px;
+	color:#9A9E94;
+	border-radius:10px 0px 10px 0px;
+	-webkit-border-radius:10px 0px 10px 0px;
+	-moz-border-radius:10px 0px 10px 0px;
+	-ms-border-radius:10px 0px 10px 0px;
+	-o-border-radius:10px 0px 10px 0px;
+	outline:none;
+	background-color:transparent;
+	box-shadow:0px 0px 7px #49AF30;
+	-moz-box-shadow:0px 0px 7px #49AF30;
+	-ms-box-shadow:0px 0px 7px #49AF30;
+	-o-box-shadow:0px 0px 7px #49AF30;
+	-webkit-box-shadow:0px 0px 7px #49AF30;
+	border:none;
+	background-color:#D7FDCC;
+	margin-bottom:10px;
+	padding:5px;
+}
+
+form.frm input[type=text].ok {
+	background-color:#AEF57A;
+	border-color:green;
+}
+
+form.frm textarea.ok {
+	background-color:#AEF57A;
+	border-color:green;
+}
+
+form.frm input[type=text].nok{
+	background-color:#FFECEC;
+	border:1px dashed #FF4848;
+}
+
+form.frm input[type=submit] {
+	float:left;
+	width:65px;
+	height:30px;
+	cursor:pointer;
+	background-color:transparent;
+	background-color:#D7FDCC;
+	font-size:14px;
+	color:#222;
+	font-weight:bold;
+	border-radius:5px;
+	border:none;
+	box-shadow:0px 0px 7px #49AF30;
+	-moz-box-shadow:0px 0px 7px #49AF30;
+	-ms-box-shadow:0px 0px 7px #49AF30;
+	-o-box-shadow:0px 0px 7px #49AF30;
+	-webkit-box-shadow:0px 0px 7px #49AF30;
+	outline:none;
+	margin-left:10px; 
+}
