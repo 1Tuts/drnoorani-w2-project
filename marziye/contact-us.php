@@ -1,9 +1,6 @@
-<?php 
-	get_header();
-	
-?>
 
-<div class="container contact">
+
+<div class="contact">
     <div class="w24 us">
     
 		<div class="mail w11 ">
@@ -14,7 +11,8 @@
                         <tr><td><input name="subject" type="text" value="عنوان" size="64"/></td></tr>
                         <tr><td><textarea cols="50" rows="11" name="msg">پیام</textarea></td></tr>
                         <tr>
-                        <td><input type="submit" value="ارسال ایمیل" class="ok"><input type="submit" value="تنظیم مجدد"></td>
+                        <td><input type="submit" value="ارسال ایمیل" class="ok">
+                        	<input type="submit" value="تنظیم مجدد"></td>
                         </tr>
                     </table>
                 </form>
@@ -36,6 +34,3 @@
     
     </div>
 </div>
-
-</body>
-</html>

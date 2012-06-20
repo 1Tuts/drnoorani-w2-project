@@ -1,22 +1,23 @@
 // JavaScript Document
 
-/* menu 
--------------------------------------*/
-
 $(function(){
-	$(".topmenu ul").hover(function(){
-		$("li").hover(function(){
-			$("a").slideDown(1400);
+/*addresspage
+------------------------------*/		
+		$("a.address").click(function(){
+			$(".text").fadeIn(3000 , function(){
+				$("span").fadeIn(100);
+				});
+				return false;
 		});
-	});
-/* plus 
------------------------------------------------*/
-
+		
+/*content
+-----------------------------*/	
 	$(".plus").click(function(){
-		$(".content").slideToggle("slow");
-	});
+			$(".content").slideToggle("slow");
+		});
 	
-});
+
+}); 
 
 
 /* banner 
@@ -92,4 +93,62 @@ window.onload=function(){
 		startAutoPlay(); 
 	})();
 
+}
+
+/*contact us
+------------------------------------*/
+
+window.onload = function(){
+	
+	document.body.className = '';
+	
+	var myform = document.forms.item(0);
+	
+	myform.onsubmit=function(){
+		var ret=true;
+		for(var i=0;i<myform.elements.length;i++){
+			if(myform.elements.item(i).className != '0k'){
+				ret=false;
+				break;
+			}
+		}
+		return ret;
+	} 	
+	
+	for (var i=0;i<myform.elements.length;i++){
+		
+		var inp = myform.elements.item(i);
+		
+		if (inp.type !='text' && inp.type !='textarea') continue;
+		
+		inp.onfocus = function(){ 
+		
+			if(this.value == this.defaultValue)  { 
+			
+			this.value = ''
+			
+			}
+			
+		}
+		
+		inp.onblur = function(){
+			
+			if(this.value !=''){
+				
+				this.className = 'ok';
+				
+				}else{
+					
+					this.className = 'nok'
+					
+					} 
+				if (this.value == ''){
+					this.value =  this.defaultValue;
+				}
+			}	
+			
+		}
+	
+	
+	
 }
