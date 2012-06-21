@@ -22,6 +22,10 @@
 		
 		get_template_part('contact-us','page');
 		
+	}elseif($post->ID == '15'){
+		
+		get_template_part('about-us','page');
+		
 	}else{
 		
 		get_template_part('content_page','page');
