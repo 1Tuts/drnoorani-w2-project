@@ -26,6 +26,10 @@
 		
 		get_template_part('about-us','page');
 		
+	}elseif($post->ID == '117'){
+		
+		get_template_part('services','page');
+		
 	}else{
 		
 		get_template_part('content_page','page');
